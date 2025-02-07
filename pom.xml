@@ -9,6 +9,7 @@
 		<version>2.5.3</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+	
 	<groupId>com.esprit.examen</groupId>
 	<artifactId>tpAchatProject</artifactId>
 	<version>1.0</version>
@@ -74,6 +75,7 @@
         <version>2.0.2</version>
     </dependency>
 	</dependencies>
+	
 
 	<build>
 		<plugins>
@@ -81,6 +83,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
